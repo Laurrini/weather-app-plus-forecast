@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/index.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Weather app</h1>
+      <header>
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city ..."
+            required
+            class="search-form-input"
+            id="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <div class="weather-app-data">
+            <h1 class="weather-app-city" id="weather-app-city"></h1>
+            <p class="weather-app-details">
+              <span id="time"></span>,
+              <span id="weather-condition"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong> Wind:
+              <strong id="wind"></strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div id="icon"></div>
+            <div class="weather-value" id="weather-value"></div>
+            <div class="weather-unit">ºC</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <small>
+          This project was coded by
+          <a href="https://github.com/Laurrini" target="_blank">Lau</a>
+          is
+          <a
+            href="https://github.com/Laurrini/my-own-weatherapp"
+            target="_blank"
+            >open-sourced on GitHub</a
+          >
+          and
+          <a href="https://my-weatherapp-bylau.netlify.app/" target="_blank"
+            >hosted on Netlify</a
+          >
+        </small>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

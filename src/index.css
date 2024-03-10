@@ -1,0 +1,96 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+h1 {
+  color: #a92f73;
+}
+.app {
+  max-width: 850px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 193, 104) 0%,
+    rgb(251, 128, 128) 90%
+  );
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 20px;
+}
+.search-form {
+  background-color: #faebd7;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  border-radius: 10px;
+}
+.search-form-input {
+  margin: 0 10px 0 0;
+  border: none;
+  font-size: medium;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #faebd7;
+}
+.search-form-button {
+  margin: 0 0 0 10px;
+  border: none;
+  font-size: large;
+  background-color: #a92f73;
+  color: #faebd7;
+  padding: 10px;
+  border-radius: 4px;
+}
+main {
+  padding: 30px 0;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.weather-app-city {
+  font-size: 70px;
+  font-weight: bold;
+  color: #a92f73;
+  margin: 0;
+  line-height: 48px;
+}
+p {
+  margin: 90px 0 -20px 0;
+  font-size: larger;
+}
+.weather-app-datails {
+  font-size: 16px;
+  line-height: 48px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+.weather-app-details strong {
+  color: #a92f73;
+  font-weight: bold;
+}
+.weather-app-temperature-container {
+  display: flex;
+  margin-top: -60px;
+}
+.weather-icon {
+  width: 88px;
+  height: 88px;
+}
+.weather-value {
+  margin-left: 10px;
+  font-size: 88px;
+  font-weight: bold;
+}
+.weather-unit {
+  margin-top: 16px;
+  font-size: 28px;
+  font-weight: bold;
+}
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+a {
+  color: #a92f73;
+}
