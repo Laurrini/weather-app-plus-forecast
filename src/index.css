@@ -97,6 +97,7 @@ a {
 .weather-forecast {
   display: inline-block;
   margin: 0 auto;
+  padding-top: 30px;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -116,5 +117,12 @@ a {
 }
 .weather-temperature-min {
   color: #a92f73;
-  opacity: 80%;
+  opacity: 65%;
+  font-weight: bold;
+}
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
