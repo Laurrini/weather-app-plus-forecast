@@ -19,7 +19,7 @@ h1 {
   background-color: #faebd7;
   padding: 15px 40px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: left;
   border-radius: 10px;
 }
@@ -93,4 +93,28 @@ footer {
 }
 a {
   color: #a92f73;
+}
+.weather-forecast {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-forecast-day {
+  font-weight: bold;
+  opacity: 75%;
+  color: #302d4d;
+}
+
+.weather-temperature-max {
+  color: #a92f73;
+  font-weight: bolder;
+  opacity: 90%;
+  padding: 10px;
+}
+.weather-temperature-min {
+  color: #a92f73;
+  opacity: 80%;
 }
